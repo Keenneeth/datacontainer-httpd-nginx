@@ -1,5 +1,6 @@
 # datacontainer-httpd-nginx
-Script configurat per tal de instal·lar 3 contenidors - Datacontainer que conté la web index.html en ~/volumes_web
+Script configurat per tal de instal·lar 3 contenidors : 
+- Contenidor Datacontainer que conté la web index.html en ~/volumes_web
 - Contenidor Apache configurat de manera interactiva, amb una terminal i que s¡executi en segon pla, donant-li el port 80 per defecte amb el nom de apache
 - Contenidor Nginx onfigurat de manera interactiva, amb una terminal i que s¡executi en segon pla, donant-li el port 8080 amb el nom de nginx que es una imatge oficial de Debian amb Nginx instal·lat.
 
